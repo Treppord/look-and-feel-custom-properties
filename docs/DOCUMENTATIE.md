@@ -31,14 +31,32 @@ Hier is het resultaat van de geïmplementeerde custom properties en de opgeschoo
   --color-link: #0071b3;
 }
 
-
-body {
-  display: grid;
-  /* ... Grid lay-out ... */
-  font-family: sans-serif;
-  margin: 0;
-  overflow-x: hidden;
+@font-face {
+  font-family: var(--font-proxima);
+  src: url(../assets/Fonts/ProximaNova-Regular_2607783814[2260].otf);
 }
+
+
+
+@media (min-width: 1125px) {
+  body {
+    background-color: var(--color-background);
+    display: grid;
+    grid-template-columns: 2fr 3fr 0.5fr 3fr 2fr;
+    grid-template-rows: 0.5fr 0.25fr 0.25fr 0.25fr 0fr 0.25fr 1fr 1fr;
+    grid-gap: 0.5rem;
+    grid-template-areas:
+      "header header header header header"
+      ". h1 h1 h1 ."
+      ". sec1 . sec2 ."
+      ". sec3 . sec4 ."
+      ". div div div ."
+      ". h2 h2 h2 ."
+      ". sec5 . sec7 ."
+      ". sec6 . sec8 .";
+    font-family: sans-serif;
+    margin: 0;
+  }
 
 ```
 
