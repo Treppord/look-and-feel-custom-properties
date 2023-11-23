@@ -16,6 +16,14 @@ Ik heb de bestaande CSS-code geanalyseerd en gekeken welke herhaalde waarden kun
 
 4. **Responsiviteit**: Media queries zijn toegevoegd om ervoor te zorgen dat de styling responsief blijft op verschillende schermgroottes.
 
+
+## Structuur
+
+Zoals bij Resultaat te zien is, heb ik nu een aantal custom properties gemaakt.
+De color-background, -header etc zijn geimplementeerd om de kleuren van de website simpel bij te houden en evt toekomstig een darkmode toe te voegen.
+
+Ik heb de kebab-case methode gebruikt omdat ik daar simpelweg het meeste aan gewend ben. En daardor dus universeel al toe pas.
+
 ## Resultaat
 
 Hier is het resultaat van de geïmplementeerde custom properties en de opgeschoonde CSS-code:
